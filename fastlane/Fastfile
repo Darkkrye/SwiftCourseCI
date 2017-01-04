@@ -1,0 +1,9 @@
+lane :bonjour do
+
+  UI.success "Bravo !"
+
+  scan(
+    project: "SwiftCourseCI.xcodeproj"
+  )
+
+end
