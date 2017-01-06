@@ -3,7 +3,9 @@ lane :bonjour do
   UI.success "Bravo !"
 
   scan(
-    project: "SwiftCourseCI.xcodeproj"
+    project: "SwiftCourseCI.xcodeproj",
+    code_coverage: true
   )
+  xcov
 
 end

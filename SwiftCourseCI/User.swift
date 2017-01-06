@@ -18,6 +18,10 @@ class User: NSObject {
         self.password = password
     }
     
+    func no_test() {
+        print("Error")
+    }
+    
     override var description: String {
         return "[User \(self.login) : \(self.password)]"
     }
