@@ -22,6 +22,7 @@ lane :deploy do
       description: changelog_from_git_commits(),
       commitish: "master"
     )
+    pod_push()
   end
 
 end
